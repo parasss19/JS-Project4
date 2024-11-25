@@ -1,0 +1,22 @@
+{
+  "name": "04_custom_video_player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./main.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasss19/JS-Project4.git"
+  },
+  "author": "Paras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parasss19/JS-Project4/issues"
+  },
+  "homepage": "https://github.com/parasss19/JS-Project4#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
