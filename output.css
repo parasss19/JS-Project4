@@ -554,15 +554,211 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+/* custom  button styling*/
+
+.button-style {
+  max-width: 50px;
+  cursor: pointer;
+  padding: 0px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  outline-width: 0px;
 }
 
-.font-bold {
-  font-weight: 700;
+.container {
+  width: 100%;
 }
 
-.underline {
-  text-decoration-line: underline;
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[5px\] {
+  height: 5px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[3px\] {
+  height: 3px;
+}
+
+.h-\[2px\] {
+  height: 2px;
+}
+
+.w-\[10px\] {
+  width: 10px;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.max-w-\[750px\] {
+  max-width: 750px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.translate-y-\[calc\(100\%-5px\)\] {
+  --tw-translate-y: calc(100% - 5px);
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-\[\#ffc600\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 198 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[rgba\(249\2c 196\2c 196\2c 0\.5\)\] {
+  background-color: rgba(249,196,196,0.5);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.transition-\[height\] {
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.group:hover .group-hover\:h-\[15px\] {
+  height: 15px;
+}
+
+.group:hover .group-hover\:h-\[8px\] {
+  height: 8px;
+}
+
+.group:hover .group-hover\:translate-y-0 {
+  --tw-translate-y: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }

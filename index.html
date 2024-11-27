@@ -7,10 +7,30 @@
     <script src="script.js" defer></script>
     <title>Project4-Custom Video Player</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+<body class="m-0 p-0 box-border bg-no-repeat bg-cover bg-center" style="background-image: url(bg-img.jpg);">
+
+    <div id="container" class="flex justify-center items-center h-screen">
+
+        <div class="player max-w-[750px] relative overflow-hidden group">
+            <!-- Video element -->
+            <video class="player__video viewer w-full" src="vid.mp4"></video>
+
+            <!-- Video Controls -->
+            <div class="player__controls flex flex-wrap gap-3 absolute bottom-0 w-full translate-y-[calc(100%-5px)] transition-all duration-300 group-hover:translate-y-0">
+                <div class="progress w-full flex h-[5px] group-hover:h-[8px] relative cursor-ew-resize transition-[height] duration-300 bg-[rgba(249,196,196,0.5)]">
+                  <div class="progress__filled w-[50%] bg-[#ffc600]"></div>
+                </div>
+
+                <div class="flex gap-3 items-center w-full px-2">
+                  <button class="player__button button-style toggle " title="Toggle Play">►</button>
+                  <input type="range" name="volume" class="player__slider w-[10px] h-[30px] flex-1" min="0" max="1" step="0.05" value="1">
+                  <input type="range" name="playbackRate" class="player__slider w-[10px] h-[30px] flex-1" min="0.5" max="2" step="0.1" value="1">
+                  <button data-skip="-10" class="player__button button-style flex-1">« 10s</button>
+                  <button data-skip="25" class="player__button button-style flex-1">25s »</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
