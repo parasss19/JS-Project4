@@ -615,6 +615,22 @@ video {
   margin: 0px;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -635,12 +651,16 @@ video {
   height: 100vh;
 }
 
-.h-\[3px\] {
-  height: 3px;
+.h-\[900px\] {
+  height: 900px;
 }
 
-.h-\[2px\] {
-  height: 2px;
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
+.max-h-\[900px\] {
+  max-height: 900px;
 }
 
 .w-\[10px\] {
@@ -655,12 +675,28 @@ video {
   width: 100%;
 }
 
-.w-48 {
-  width: 12rem;
+.w-\[750px\] {
+  width: 750px;
 }
 
 .max-w-\[750px\] {
   max-width: 750px;
+}
+
+.max-w-\[850px\] {
+  max-width: 850px;
+}
+
+.max-w-\[950px\] {
+  max-width: 950px;
+}
+
+.max-w-\[450px\] {
+  max-width: 450px;
+}
+
+.max-w-\[1050px\] {
+  max-width: 1050px;
 }
 
 .flex-1 {
@@ -688,16 +724,8 @@ video {
   justify-content: center;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-3 {
   gap: 0.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -748,10 +776,6 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.group:hover .group-hover\:h-\[15px\] {
-  height: 15px;
 }
 
 .group:hover .group-hover\:h-\[8px\] {
